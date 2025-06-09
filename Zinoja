@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZINOJA | Shop</title>
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f4f4; }
+    header { background: black; color: white; padding: 1rem; text-align: center; font-size: 1.5rem; }
+    .products { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; padding: 1rem; }
+    .product { background: white; padding: 1rem; border-radius: 10px; text-align: center; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .product img { width: 100%; height: auto; border-radius: 10px; }
+    .product a { display: inline-block; margin-top: 0.5rem; padding: 0.5rem 1rem; background: black; color: white; text-decoration: none; border-radius: 5px; }
+    footer { text-align: center; padding: 1rem; background: #222; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>ZINOJA Clothing</header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://link-to-your-image1.jpg" alt="Product 1"/>
+      <h3>Oversized Tee</h3>
+      <a href="https://your-order-link1.com" target="_blank">Order Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://link-to-your-image2.jpg" alt="Product 2"/>
+      <h3>Denim Jacket</h3>
+      <a href="https://your-order-link2.com" target="_blank">Order Now</a>
+    </div>
+    
+    <!-- More products copy-paste here -->
+  </section>
+
+  <footer>© 2025 ZINOJA. All rights reserved.</footer>
+</body>
+</html>
